@@ -1,0 +1,58 @@
+label {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+.links {
+  color: #000000;
+  font-size: 0.9rem;
+  text-decoration: none;
+  &:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+}
+.select2-selection__rendered {
+  line-height: 39px !important;
+}
+.select2-container .select2-selection--single {
+  height: 40px !important;
+  border: 1px solid #ced4da;
+}
+.select2-selection__arrow {
+  height: 40px !important;
+}
+.select2-selection--single {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.form-check-input:checked {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom-width: 1px;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #fff;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #000000;
+  outline: 0;
+  box-shadow: #000000;
+}

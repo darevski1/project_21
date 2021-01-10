@@ -1,0 +1,22 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 50px; /* Set the fixed height of the footer here */
+  line-height: 50px; /* Vertically center the text there */
+  background-color: $darkblue;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.bottom-zero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list-inline-item a {
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

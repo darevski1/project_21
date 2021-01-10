@@ -1,0 +1,39 @@
+.black_btn {
+  background: #000;
+  border: 1px solid#000;
+  font-weight: 400;
+
+  &:hover {
+    border: 1px solid#000;
+    background: #ffffff;
+    color: #000;
+    font-weight: 400;
+  }
+}
+.black_btn_outline {
+  background: #ffffff;
+  border: 1px solid#000;
+  font-weight: 400;
+  color: #000000;
+  &:hover {
+    border: 1px solid#000;
+    background: #000000;
+    color: #ffffff;
+    font-weight: 400;
+  }
+}
+.blue_btn {
+  background: #24a3d8;
+  border: 1px solid #24a3d8;
+  font-weight: 400;
+  color: #ffffff;
+  &:hover {
+    border: 1px solid#24A3D8;
+    background: #ffffff;
+    color: #24a3d8;
+    font-weight: 400;
+  }
+}
+.btn-wider {
+  width: 100%;
+}

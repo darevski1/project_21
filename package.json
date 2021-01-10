@@ -1,0 +1,24 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "<snippet>   <content><![CDATA[ # ${1:Project Name}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o assets/css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darevski1/project_21.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darevski1/project_21/issues"
+  },
+  "homepage": "https://github.com/darevski1/project_21#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
